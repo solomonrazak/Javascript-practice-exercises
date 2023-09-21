@@ -1,0 +1,38 @@
+.container{
+    width: 80%;
+    height: 500px;
+    
+   margin: 0 auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   vertical-align: middle;
+   overflow: hidden;
+    
+    
+    
+}
+.inside-1{
+    display: flex;
+    gap: 1.6em;
+    margin-bottom: 8px;
+}
+.inside-2{
+    display: flex;
+    gap: 7px;
+    margin-bottom: 8px;
+
+}
+.buttons{
+    display: flex;
+    gap: 8px;
+   
+}
+.mul, .divide {
+    cursor: pointer;
+}
+.display{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}

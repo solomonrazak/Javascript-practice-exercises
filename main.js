@@ -98,3 +98,50 @@ function areaOfTriangle(base, height, hypotenuse){
 } 
 
 console.log("the area of the triangle is " + areaOfTriangle(5,6,7));
+
+
+// WRITE A JAVASCRIPT PROGRAM TO ROTATE THE STRING W3RESOURCE IN THE RIGHT DIRECTION.
+// BY PERIODICALLY REMOVING THE ONE LETTER FROM THE END AND PUT IT AT THE FRONT.
+
+function leapYear(year){
+    if (year % 4 === 0 && year % 400 === 0 && year % 100 !== 0){
+        return `${year} is a leap year`;
+    }
+    else {
+        return `${year} is not a leap year`;
+    }
+}
+console.log(leapYear(2016));
+
+// WRITE A JAVASCRIPT PROGRAM TO FIND OUT IF 1ST JANAUARY BETWEEN 2014 AND 2015 WILL BE A SUNDAY.
+
+for (let year = 2014; year <= 2050; year++){
+    let d = new Date(year, 0, 0); // specifies the year, month and day of the month.
+    if (d.getDay() === 0){
+        console.log("Ist January in " + year + " is a sunday");
+    }
+}
+
+// WRITE A JAVASCRIPT PROGRAM TO CALCULATE THE DAYS LEFT BEFORE CHRISTMAS.
+
+let christmasDay = new Date(2023, 12, 25);
+
+
+
+
+
+
+// WRITE A JAVASCRIPT TO CALCULATE THE MULTIPLICATION AND DIVISION OF TWO NUMBERS.
+let num1 = parseInt("enter your first number:")
+let num2 = parseInt("Enter your second number:")
+
+function solveNumber(num1, num2){
+    let result =  num1 * num2;
+    return result;
+    let answer = num1 / num2;
+    return answer;
+    console.log("the multipication and division of the numbers is: " + result  + "and " + answer + "respectively.");
+    
+} 
+
+solveNumber(num1, num2);
